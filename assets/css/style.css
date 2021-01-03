@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Athene';
+    src: url(../fonts/Athene.otf);
+}
+
+body{
+    margin:0;
+    padding:0;
+
+
+}
+header {
+    text-align: center;
+    font-family: 'Athene';
+    background-color: #efe8d7;
+    margin-bottom:0;
+    padding-bottom: 100px;
+}
+
+/*Linie durchgezogen*/
+header div{
+    border-bottom: 1px solid #002a5a;
+}
+
+header div:nth-of-type(1) p:first-child{
+    font-family: 'open sans';
+    font-size: 14px;
+    display: inline-block;
+    text-align: left;
+    color: #002a5a;
+    padding-right: 70%;
+    margin:10px 0px 10px 0px;
+}
+
+header div:nth-of-type(1) p:last-child{
+    font-family: 'open sans';
+    font-size: 14px;
+    display: inline;
+    text-align: left;
+    color: #002a5a;
+    margin:20px 0px 20px 0px;
+}
+
+header h1,h2 {
+    text-align: center;
+    font-family: 'Athene';
+    font-size: 5px;
+    font-size: 70px;
+    border: 1px #002a5a;          /*border-bottom funktioniert nicht?*/
+    color: #002a5a;
+    margin: none;
+   
+}
+
+header figcaption{
+    display: inline;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 5px;;
+    padding-right: 10%;
+    color: #002a5a;
+}
+
+figcaption p{
+    font-family: 'open sans';
+    display: inline-block;
+    color:#002a5a;
+}
+
+
+main{
+    margin:0;
+    background-color: #F4C4C4;
+}
+
+main div :first-child{         /*01*/
+    text-align: left;
+    font-size: 15px;
+    color: #282b29;
+    padding-left: 5%;
+    font-family: 'open sans';
+    margin-top:0px;
+    padding-top: 50px;
+}
+
+main div :last-child{
+    font-size: 140px;
+    font-family: 'Athene';
+    padding-left: 2%;
+
+}
+
+main p{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'open sans';
+    padding-left: 60%;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+table{                              /*unfertig*/
+    text-align: right;
+    padding-left: 40%;
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+table td, th{
+    padding-left: 20%;
+    height: 70px;
+    border-bottom: 1px solid black;
+}
+
+table tr td:nth-of-type(1){
+width: 70px;
+font-size: 12px;
+}
+
+table tr td:nth-of-type(2){     /*hauptwörter tabelle*/
+width:40px;
+font-size: 20px;
+}
+
+table tr td:nth-of-type(3){
+    width:60px;
+    font-size: 15px;
+    text-align: right;
+}
+
+main img {                     /*BIlDletswork*/
+    width: 10%;
+    padding-left: 80%;
+    margin: 80px 0px 80px 0px;
+}
+
+article{
+    margin:0;
+    padding:0;
+    background-color: #DEB873;
+}
+
+
+article section:nth-of-type(1) p:nth-of-type(1){
+    text-align: right;
+    color: #7d2222;
+    font-size: 15px;
+    font-family:'open sans';
+    margin-top:0;
+    padding-top: 60px;
+    padding-right: 5%;
+}
+
+article section:nth-of-type(1) h1 {
+    text-align: right;
+    color:#7d2222;
+    font-size: 100px;
+    font-family: 'Athene';
+    margin-top: 40px;
+}
+
+article section:nth-of-type(1) p:last-child{
+    text-align: left;
+    color:#7d2222;
+    font-size: 20px;
+    font-family: 'open sans';
+    margin-bottom:100px;
+    padding-left: 5%;
+}
+
+article section:nth-of-type(2){
+    background: url(../img/bg-marconatto-1.jpg) no-repeat right/50% 100%;
+    height: 300px;
+    margin:300px 30px 0px 0px;
+}
+article section:nth-of-type(2) h2{
+    color: #7d2222;
+    font-size: 70px;
+    text-align: left;
+    padding-left: 5%;
+}
+
+article section:nth-of-type(3){
+    background: url(../img/kathe_cover-1.jpg) no-repeat left/50% 100%;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+article section:nth-of-type(3) h2{
+    text-align: right;
+    font-size: 70ox;
+    padding-right: 2%;
+    color:#7d2222;
+}
+
+article section:nth-of-type(4){
+    background: url(../img/bg-nicole-1.jpg) no-repeat right/50% 100%;
+    height: 300px;
+    margin:300px 30px 0px 0px;
+}
+
+article section:nth-of-type(4) h2{
+    color: #7d2222;
+    text-align: left;
+    padding-left: 10%;
+
+}
+
+article section:nth-of-type(5){
+    background: url(../img/boa_cover-1.jpg) no-repeat left/50% 100%;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 200px;
+    padding-bottom: 200px;
+}
+
+article section:nth-of-type(5) h2{
+    text-align: right;
+    color:#7d2222;
+    padding-right: 2%;
+}
+
+
+
+footer{
+    margin-top: 0;
+    background:#D2D2D2;
+    color: #1d8883;
+}
+
+footer p:nth-of-type(1){
+    font-size: 20px;
+    padding-left: 5%;
+    font-family: 'open sans';
+    margin-top: 0;
+    padding-top: 70px;
+}
+
+footer h3{
+    font-family: 'Athene';
+    font-size: 90px;
+}
+
+footer p:nth-of-type(2){
+    font-family: 'Open sans';
+    text-align: left;
+    padding-left: 20%;
+    font-size: 20px;
+}
+
+footer ul{
+    font-family: 'Open sans';
+    font-size: 20px;
+    list-style: none;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
